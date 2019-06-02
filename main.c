@@ -62,7 +62,7 @@ int main(void) {
     printArray(testArray, sizeOfTestArray);
 
 
-    printf("Press ENTER key to Continue\n");  
+    printf("\nPress ENTER key to Continue\n");  
     getchar();  
 
     printf("\nPerforming removals with threads:\n");
