@@ -28,8 +28,6 @@ int main(void) {
     void *parameter = (void *) wrap;
     printf("\nRemoving evens...\n");
     removeWithCondition(parameter);
-    free(parameter);
-    free(wrap);
 
     if (!checkIfAnyHasProperty(testArray, &sizeOfTestArray, checkIfEven)) {
         printOk();
