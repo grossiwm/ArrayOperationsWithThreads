@@ -91,6 +91,12 @@ int main(void) {
     pthread_join(evenRemoveThread, NULL);
     pthread_join(primeRemovalThread, NULL);
 
+    free(wrap4firstThread);
+    free(wrap4secondThread);
+    free(parameter4firstthread);
+    free(parameter4secondthread);
+
+
     printf("\nMain Array after:\n");
     printArray(mainArray, sizeOfMainArray);
 
