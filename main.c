@@ -61,9 +61,9 @@ int main(void) {
     printf("\nFinal test array:\n");
     printArray(testArray, sizeOfTestArray);
 
-    printf("\nPress any key to continue ");
-    int response;
-    scanf("%d", &response);
+
+    printf("Press ENTER key to Continue\n");  
+    getchar();  
 
     printf("\nPerforming removals with threads:\n");
 
